@@ -13,7 +13,6 @@ class NetworkConnection @Inject constructor(){
 
     var mEndPoint: String = "https://kotlinlang.org/docs/tutorials/android-frameworks.html#dagger"
 
-//    if(BuildConfig.DeBUG)
 
     fun doReq(): String {
         return this.mEndPoint
